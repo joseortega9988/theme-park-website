@@ -6,14 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="description"
-      content="A webpage for finding places to stay in DinoLand"
+      content="DinoLand - Places to stay webpage"
     />
     <title>DinoLand - Places To Stay</title>
     <!-- <link rel="stylesheet" href="Stylesheets/main.css"> -->
   </head>
 
   <body>
-    <nav>
+    <!-- Top Nav Bar Code Below (George Wauchope's code) - I used the nav semantic tag here so that people using screen readers know that this is the navigation bar-->
+    <nav class="nav">
       <h1 class="index"><a href="index.html">DinoLand</a></h1>
       <h1 class="index">
         <a href="places-to-stay.html"><em>Places to stay</em></a>
@@ -87,9 +88,37 @@
       If you have any questions then<br />
       please contact us:
     </p>
-    <h1>Contact us</h1>
+    <!-- Contact Form Code Below (George Wauchope's code)-->
+
+    <div class="contact-us">
+      <h2>Contact us</h2>
+      <form>
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" /><br />
+        <label for="message">Message:</label><br />
+        <input type="text" id="message" name="message" /><br />
+        <input type="submit" value="Submit" /><br />
+      </form>
+    </div>
+  </main>
+
+ 
+
+ 
 
     <p>Are you ready to come and have fun?</p>
     <button id="housingBookNowButton" type="button">BOOK NOW</button>
+
+     <!-- Footer Code Below (George Wauchope's code)-->
+    <footer>
+      <div>
+        <h2><a href="/index.html">DinoLand</a></h2>
+      </div>
+    </footer>
+    
   </body>
 </html>
