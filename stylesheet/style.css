@@ -1,224 +1,233 @@
 /* All CSS Below Is From George Wauchope & Is For The Home Page */
 
 * {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  /* Below is CSS for top navbar */
-  
-  #phone-and-button-top-nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: #e9fa00;
-    height: 50px;
-    width: 100%;
-  }
-  
-  #phone-and-button-top-nav > button {
-    margin: 20px;
-    padding: 10px;
-    text-decoration: none;
-    background-color: #b81106;
-    color: white;
-    font-size: 16px;
-  }
-  
-  #phone-and-button-top-nav > p {
-    margin-right: 30px;
-  }
-  
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #b81106;
-    color: #fff;
-  }
-  
-  .brand-title {
-    font-size: 1.5rem;
-    margin: 0.5rem;
-  }
-  
-  .navbar-links ul {
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .navbar-links li {
-    list-style: none;
-  }
-  
-  .navbar-links li a {
-    text-decoration: none;
-    color: #fff;
-    padding: 1rem;
-    display: block;
-  }
-  
-  .brandLink {
-    text-decoration: none;
-    color: #fff;
-    padding: 1rem;
-    display: block;
-  }
-  
-  .navbar-links li:hover {
-    background-color: #e9fa00;
-  }
-  
-  .navbar-links li a:hover {
-    color: black;
-  }
-  
-  .toggle-button {
-    position: absolute;
-    top: 1.75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-  }
-  
-  .toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: #fff;
-    border-radius: 10px;
-  }
-  
-  .navbar-links li a {
-    padding: 0.5rem 1rem;
-  }
-  
-  .navbar-links.active {
-    display: flex;
-  }
-  
-  /* Above is CSS for top navbar */
-  
-  .main-flex-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    overflow: hidden;
-  }
-  
-  #background-image {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
-  
-  .above-fold {
-    position: relative;
-  }
-  
-  .text-above-fold {
-    max-width: 300px;
-    margin: 0 auto;
-    margin-top: 20px;
-  }
-  
-  .text-above-fold > button {
-    margin-top: 15px;
-    padding: 10px;
-    text-decoration: none;
-    background-color: #b81106;
-    color: white;
-    font-size: 16px;
-  }
-  
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Below background color uses OPACITY in hex number to make the background colour more transparent */
+body {
+  background-color: #6b8e2380;
+}
+
+/* Below is CSS for top navbar */
+
+#phone-and-button-top-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #e9fa00;
+  height: 50px;
+  width: 100%;
+}
+
+#phone-and-button-top-nav > button {
+  margin: 20px;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #b81106;
+  color: white;
+  font-size: 16px;
+}
+
+#phone-and-button-top-nav > p {
+  margin-right: 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b81106;
+  color: #fff;
+}
+
+.brand-title {
+  font-size: 1.5rem;
+  margin: 0.5rem;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  display: block;
+}
+
+.brandLink {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  display: block;
+}
+
+.navbar-links li:hover {
+  background-color: #e9fa00;
+}
+
+.navbar-links li a:hover {
+  color: black;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 1.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.navbar-links li a {
+  padding: 0.5rem 1rem;
+}
+
+.navbar-links.active {
+  display: flex;
+}
+
+/* Above is CSS for top navbar */
+
+.main-flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+#background-image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.above-fold {
+  position: relative;
+}
+
+.text-above-fold {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.text-above-fold > h2 {
+  font-family: "Pattaya", sans-serif;
+}
+
+.text-above-fold > button {
+  margin-top: 15px;
+  padding: 10px;
+  text-decoration: none;
+  background-color: #b81106;
+  color: white;
+  font-size: 16px;
+}
+
+.flex-container-for-rides {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-container-for-rides > img {
+  height: 50vh;
+  width: 100vh;
+}
+
+#raptor-ride {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#terodactal-ride {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+#t-rex-ride {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.pricing {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#price-ranges {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+#price-ranges > li {
+  margin-bottom: 20px;
+}
+
+.footer {
+  width: 100%;
+  height: 80px;
+  background-color: #b81106;
+  display: flex;
+  align-items: center;
+}
+
+.footer > h2 > a {
+  margin-left: 50px;
+  text-decoration: none;
+  color: white;
+}
+
+.contact-us {
+  margin-bottom: 50px;
+}
+
+/* Media Queries Below: */
+
+/* Below media quiery keeps ride images on homepage mobile responsive on larger devices greater than 623 pixels wide */
+@media (min-width: 720px) {
   .flex-container-for-rides {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    display: inline;
   }
-  
-  .flex-container-for-rides > img {
-    height: 50vh;
-    width: 100vh;
-  }
-  
-  #raptor-ride {
-    margin-top: 50px;
-    margin-bottom: 20px;
-  }
-  
-  #terodactal-ride {
-    margin-top: 50px;
-    margin-bottom: 20px;
-  }
-  
-  #t-rex-ride {
-    margin-top: 50px;
-    margin-bottom: 20px;
-  }
-  
-  .pricing {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-  }
-  
-  #price-ranges {
-    margin-top: 15px;
-    margin-bottom: 50px;
-  }
-  
-  #price-ranges > li {
-    margin-bottom: 20px;
-  }
-  
-  .footer {
-    width: 100%;
-    height: 80px;
-    background-color: #b81106;
-    display: flex;
-    align-items: center;
-  }
-  
-  .footer > h2 > a {
-    margin-left: 50px;
-    text-decoration: none;
-    color: white;
-  }
-  
-  .contact-us {
-    margin-bottom: 50px;
-  }
-  
-  /* Media Queries Below: */
-  
-  /* Below media quiery keeps ride images on homepage mobile responsive on larger devices greater than 623 pixels wide */
-  @media (min-width: 720px) {
-    .flex-container-for-rides {
-      display: inline;
-    }
-  
-    @media (min-width: 623px) {
-      .text-above-fold {
-        position: absolute;
-        top: 20vh;
-        left: 10vw;
-        color: black;
-        background-color: #f8f8f8;
-        font-size: 25px;
-  
-        /* max-width: 300px;
+
+  @media (min-width: 623px) {
+    .text-above-fold {
+      position: absolute;
+      top: 20vh;
+      left: 10vw;
+      color: black;
+      background-color: #f8f8f8;
+      font-size: 25px;
+
+      /* max-width: 300px;
         margin: 0 auto;
         margin-top: 20px; */
-      }
     }
-  
-    /* .above-fold {
+  }
+
+  /* .above-fold {
       position: relative;
     }
   
@@ -227,5 +236,4 @@
       top: 40vh;
       left: 10vh;
     } */
-  }
-  
+}
