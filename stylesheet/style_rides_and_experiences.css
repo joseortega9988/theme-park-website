@@ -112,8 +112,6 @@
       font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
       text-align: center;
       font-style: normal;
-      font-variant: normal;
-      font-weight: bold;
       font-size: 20px;
       color: #b81106; /* Red color */
   }
@@ -121,8 +119,6 @@
   h3 {
       font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
       font-style: italic;
-      font-variant: normal;
-      font-weight: bold;
       font-size: 20px; 
       color: #b81106; /* Red color */
   }
@@ -130,8 +126,6 @@
   p {
       font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
       font-style: normal;
-      font-variant: normal;
-      font-weight:normal;
       font-size: 1em;
       color:#000000;
   }
@@ -150,8 +144,6 @@
       flex-direction: column;
       font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
       font-style: normal;
-      font-variant: normal;
-      font-weight: normal;
       text-align: center;
       font-size: 18px;
       color:#000000; /* black color */
@@ -164,8 +156,6 @@
       flex-direction: column;
       font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
       font-style: normal;
-      font-variant: normal;
-      font-weight: normal;
       font-size: 1em;
       color: #b81106; /* Red color */
   }
@@ -196,8 +186,6 @@
       flex-direction: column;
       font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
       font-style: normal;
-      font-variant: normal;
-      font-weight: normal;
       font-size: 1em;
       color: #b81106; /* Red color */   
   }
@@ -221,43 +209,49 @@
   }
   
   .RestaurantsContainer {
-      object-fit: contain;
-      float: left;
-      align-self: flex-start;  
-      font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
-      font-style: normal;
-      font-variant: normal;
-      font-weight: normal;
-      font-size: 1em;
-      color: #b81106; /* Red color */
+    display: flex;
+    justify-content: left;
+    align-content: left;
+    flex-direction: column;
+    font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
+    font-style: normal;
+    font-size: 1em;
+    color: #b81106; /* Red color */  
   }
   
   .JungleCont {
       object-fit: contain;
+      flex-direction: column;
+      align-items: left;
+      justify-content: left;
       float: left;
       align-self: flex-start; 
   }
   
   .T_rexCont {
       object-fit: contain;
+      flex-direction: column;
+      align-items: left;
+      justify-content: left;
       float: left;
       align-self: flex-start; 
   }
   
   .McdonaldsCont{
       object-fit: contain;
+      flex-direction: column;
+      align-items: left;
+      justify-content: left;
       float: left;
       align-self: flex-start; 
   }
   
   .MapCont{
       object-fit: contain;
-      float: left;
+      float: center;
       align-self: flex-start; 
       font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
       font-style: normal;
-      font-variant: normal;
-      font-weight: normal;
       font-size: 1em;
       color: #b81106; /* Red color */
   }
