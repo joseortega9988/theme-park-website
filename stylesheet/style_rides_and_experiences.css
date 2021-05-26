@@ -102,158 +102,132 @@
       color: black;
   }
   
-  
   body {
       background-color:#9FC5A2; /* light green color */
   }
   
-  
-  h2 {
-      font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
-      text-align: center;
-      font-style: normal;
-      font-size: 20px;
-      color: #b81106; /* Red color */
-  }
-  
-  h3 {
-      font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
-      font-style: italic;
-      font-size: 20px; 
-      color: #b81106; /* Red color */
-  }
-  
-  p {
-      font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
-      font-style: normal;
-      font-size: 1em;
-      color:#000000;
-  }
-  table {
-      color:#000000;
-  }
-  
-  address {
-      color:#000000;
-  }
-  
   .RandEContainer {
-      display:flex;
-      justify-content: left;
-      align-items: left;
-      flex-direction: column;
-      font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
-      font-style: normal;
-      text-align: center;
-      font-size: 18px;
-      color:#000000; /* black color */
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    text-align: center;
+    font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
+    font-size: 18px;
+  }
+  .RandEContainer > h3, h2 {
+    font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
+    text-align: center;
+    font-size: 22px;
   }
   
   .ridesContainer {
-      display: flex;
-      justify-content: left;
-      align-items: left;
-      flex-direction: column;
-      font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
-      font-style: normal;
-      font-size: 1em;
-      color: #b81106; /* Red color */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
+    font-size: 1em;
+    color: #b81106; /* Red color */
   }
   
   .TyrannoCont {
-      object-fit: contain;
-      float: left;
-      align-self: flex-start;
-  
+    padding: 20px;
+    text-align: center; 
+    justify-content: space-between; 
   }
-  
+ 
   .VelocirCont {
-      object-fit: contain;
-      float: left;
-      align-self: flex-start;
+    padding: 20px;
+    text-align: center; 
+    justify-content: space-between; 
   }
-  
   .SpinosaurusCont {
-      object-fit: contain;
-      float: left;
-      align-self:flex-start;
+    padding: 30px;
+    text-align: center; 
+    justify-content: space-between; 
   }
   
   .ShowsAndEventsContainer {
-      display: flex;
-      justify-content: left;
-      align-content: left;
-      flex-direction: column;
-      font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
-      font-style: normal;
-      font-size: 1em;
-      color: #b81106; /* Red color */   
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
+    font-size: 1em;
+    color: #b81106; /* Red color */ 
   }
   
   .JurassicCont{
-      object-fit: contain;
-      float: left;
-      align-self: flex-start;
+    padding: 20px;
+    text-align: center; 
+    justify-content: space-between; 
   }
-  
+
   .DinoDanceCont{
-      object-fit: contain;
-      float: left;
-      align-self: flex-start; 
+    padding: 20px;
+    text-align: center; 
+    justify-content: space-between; 
   }
-  
+
   .LiveMusicContainer {
-      object-fit: contain;
-      float: left;
-      align-self: flex-start; 
+    padding: 20px;
+    text-align: center; 
+    justify-content: space-between; 
   }
-  
+
   .RestaurantsContainer {
     display: flex;
-    justify-content: left;
-    align-content: left;
+    width: 100%;
     flex-direction: column;
+    padding: 20px;
     font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
-    font-style: normal;
     font-size: 1em;
-    color: #b81106; /* Red color */  
+    color: #b81106; /* Red color */
   }
   
   .JungleCont {
-      object-fit: contain;
-      flex-direction: column;
-      align-items: left;
-      justify-content: left;
-      float: left;
-      align-self: flex-start; 
+    padding: 20px;
+    text-align: center; 
+    justify-content: space-between; 
   }
   
   .T_rexCont {
-      object-fit: contain;
-      flex-direction: column;
-      align-items: left;
-      justify-content: left;
-      float: left;
-      align-self: flex-start; 
+    padding: 20px;
+    text-align: center; 
+    justify-content: space-between; 
   }
   
   .McdonaldsCont{
-      object-fit: contain;
-      flex-direction: column;
-      align-items: left;
-      justify-content: left;
-      float: left;
-      align-self: flex-start; 
+    padding: 20px;
+    text-align: center; 
+    justify-content: space-between; 
   }
   
   .MapCont{
-      object-fit: contain;
-      float: center;
-      font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
-      font-style: normal;
-      font-size: 1em;
-      color: #b81106; /* Red color */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Lato, "Lucida Grande", Tahoma, Sans-Serif;
+    font-size: 1em; 
+    align-items: center;
   }
+table {
+    color:#000000;
+    align-items: left;
+}
+
+address {
+    color:#000000;
+    text-align: left;
+}
+
+  @media screen and (max-width: 768px){
+    .RandEContainer{
+        flex-direction: row;
+    }
+}
   
 /* Footer coded by George Wauchope */
 .footer {
