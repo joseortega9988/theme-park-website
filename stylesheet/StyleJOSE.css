@@ -1,0 +1,391 @@
+/* All css Below below is from Jose CSS FRONT PAGE 
+ */
+ * {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  /* Background */
+  body {
+   background-color:#e9fa00 ;
+    margin: 8px auto 8px auto;
+    position: relative;
+  }
+  /* HEAD */ 
+  main {
+    max-width: 768px;
+    min-height: 136px;
+    max-height: 1366px;
+  }
+  /* First Bar   */
+  #phone-and-button-top-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #e9fa00;
+    color: #000000;
+    height: 70px;
+    width: 100%;
+    
+  }
+  #phone-and-button-top-nav > button {
+  color: white;
+  background-color: black ;
+  margin: 0px;
+  padding: 30px;
+  font-size: large;
+  width: 50vh;
+  height: 10vh;
+   }
+   #phone-and-button-top-nav > p {
+     margin-top: 30px;
+     height: 7vh;
+  
+   }
+  
+  .navbar {
+  
+    display:flex;
+    align-items: center;
+    background-color:#b81106;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 0px 10%
+    
+  }
+  
+  /* 2ND BAR */  
+  .brand-title {
+  
+    margin:  20px;
+  }
+  
+  .brandLink {
+    text-decoration: none;
+    color:#ffffff;
+    background-color:#b81106;
+    padding: 5rem;
+    position: relative;
+    left : 50px ;
+    top: 70px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+  
+    ;
+  
+  }
+  
+  
+  #logo {
+    margin: 10px;  
+    position :relative;
+    left : 20px
+  }
+  
+   .logo-img {
+    float:left;
+    margin-left: 0px 0px 0px 30px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left : 0px;
+    top: 0px;
+    border: 2px solid #e9fa00;
+    background-color: #ffffff;
+    transform: translate(-70%,-30%);
+  
+   } 
+  
+  .navbar-links li {
+    display: flexbox;
+    padding: 0px 0px;
+    color:#b81106;
+    right: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    height: 50px;
+    list-style:armenian;
+  }
+  
+  .navbar-links li a {
+    transition: all 0.3s ease 0s;
+  }
+  .navbar-links li a:hover{
+    color: #000000;
+    
+  }
+  .toggle_button {
+    position: absolute;
+    top: 1.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  
+  
+  }
+  
+  /* MAin Picture
+   */
+  .main-flex-container{
+    height: 550px;
+    width : 1300px;
+    position:static;
+  }
+   .above-fold {
+     display: flex;
+     align-items: center;
+     
+   }
+   #background-image {
+     height: 550px;
+     width : 600px;
+  
+   }
+  
+  
+   .text-above-fold {
+     display:flex;
+     background-color: #e9fa00;
+     color: #ffffff;
+     height: 550px;
+     width: 100%;
+     
+  
+     
+   }
+  
+   #number-one {
+    display:flex;
+    background-color: #b81106;;
+    border: 2px solid #ffffff;
+    align-items: center;
+    font-size: 300%;
+    padding: 80px;
+    height: min-content;
+    transform: translate(00%,0%);
+   }
+  
+   #Book_now {
+     display:flexbox;
+     height:100px;
+     width: 600px;
+     border: 2px solid #000000;
+     transform: translate(0%,20%);
+     
+   }
+  /*  1st ride 
+   */ 
+   ._1st_text_ride{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     display:flex;
+     background-color: #b81106;;
+     border: 2px solid #4CAF50;
+     padding: 80px;
+     width: 475px;
+     height: 280px;
+     align-items: center;
+  
+     
+   }
+   #raptor-ride{
+     align-items: center;
+     justify-content: center;
+     display: flexbox;
+     background:#e9fa00;
+     border: 2px solid #ffffff;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     height:300px;
+     width: 500px;
+     font-size: 100px;
+     transform: translate(0%,0%);
+     text-align: center;
+     color: #000;
+  
+  
+  
+  
+   } 
+  
+   #_1st_image_ride{
+     display: flexbox;
+     padding: 100px;
+  
+  
+  
+   }
+  
+   ._1st-container-for-rides {
+     display:flexbox;
+     justify-content: center;
+     align-items: center;
+     flex-wrap:initial;
+     transform: translate(49.2%,-143%);
+     height: 50vh;
+     
+     
+   } 
+  
+  /*   2nd ride 
+   */
+  ._2nd_text_ride {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    background-color: #e9fa00;
+    border: 2px solid #4CAF50;
+    padding: 80px;
+    width: 475px;
+    height: 280px;
+    align-items: center;
+    transform: translate(100%,-70%);
+  }
+  #terodactal-ride {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #b81106;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height:300px;
+  width: 500px;
+  font-size: 100px;
+  transform: translate(0%,0%);
+  text-align: center;
+  }
+  
+  ._2nd-container-for-rides {
+    display:flexbox;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:initial;
+    transform: translate(0%,-122%);
+    height: 100vh;
+  
+  
+  
+  }
+    ._2nd-container-for-rides > img {
+      display:flex;
+      justify-content: center;
+      height: 71vh;
+      width: 104vh;
+     }
+  
+  #_2nd_image_ride{
+    display: flex;
+    padding: 100px;
+  
+  }
+  
+  /* 3rd ride 
+   */
+  
+  ._3rd_text_ride{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    background-color: #b81106;
+    border: 2px solid #4CAF50;
+    padding: 80px;
+    width: 475px;
+    height: 280px;
+    align-items: center;
+    transform: translate(0%,-210%);
+  
+  }
+  
+  #t-rex-ride {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #e9fa00;
+    color: #000000;
+    border: 2px solid #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height:300px;
+    width: 500px;
+    font-size: 100px;
+    transform: translate(0%,0%);
+    text-align: center;
+  
+  }
+  
+  
+  
+  ._3rd-container-for-rides {
+    display:flexbox;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:initial;
+    transform: translate(104%,-93%);
+     height: 1480px;
+   width: 615px;
+    
+  } 
+  ._3rd-container-for-rides > img {
+   display:flexbox;
+   justify-content: center;
+   height: 71vh;
+   width: 104vh;
+  }
+   
+  .contact-us {
+    display: flex;
+  }
+  #raptor-ride {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  #terodactal-ride {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .pricing {
+    display:flex;
+    line-height: 30px;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  #price-ranges {
+    margin-top: 15px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  #price-ranges > li {
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    width: 100%;
+    height: 80px;
+    background-color: #b81106;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer > h2 > a {
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .contact-us {
+    display:flex;
+    line-height: 30px;
+    justify-content: center;
+    margin-top: 0px;
+    margin-right: 130px;
+    white-space:pre-line;
+  }
